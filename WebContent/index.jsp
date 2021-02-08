@@ -28,7 +28,7 @@
 	Long price = tuprice + expense;	
 	
 	JSONObject product1 = new JSONObject();
-	product1.put("name", "product1");
+	product1.put("name", "product3");
 	product1.put("quantity", quantity);
 	product1.put("unitprice", tuprice);
 	product1.put("expense", expense);
