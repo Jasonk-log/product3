@@ -27,13 +27,13 @@
 	Integer expense = 20;
 	Long price = tuprice + expense;	
 	
-	JSONObject product1 = new JSONObject();
-	product1.put("name", "product3");
-	product1.put("quantity", quantity);
-	product1.put("unitprice", tuprice);
-	product1.put("expense", expense);
-	product1.put("price", price);
+	JSONObject product3 = new JSONObject();
+	product3.put("name", "product3");
+	product3.put("quantity", quantity);
+	product3.put("unitprice", tuprice);
+	product3.put("expense", expense);
+	product3.put("price", price);
 				
-	out.print(product1.toString());
+	out.print(product3.toString());
 	
 %>
