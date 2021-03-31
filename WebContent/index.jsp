@@ -7,8 +7,8 @@
 	//String product3 = null;
 
 	CallService cs = new CallService();
-	String part1 = cs.getJSON("http://part1:8080");
-	String part3 = cs.getJSON("http://part3:8080");
+	String part1 = cs.getJSON("http://part1:8080/part1.jsp");
+	String part3 = cs.getJSON("http://part3:8080/part3.jsp");
 
 	JSONParser parser = new JSONParser();
 	Object obj1 = parser.parse(part1);
